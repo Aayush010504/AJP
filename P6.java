@@ -22,8 +22,8 @@ public class P6 extends JFrame implements ItemListener
         add(jComboBoxobj);
         add(jLabelobj);
         
-        JScrollBar s=new JScrollBar();  
-        s.setBounds(100,100, 50,100);  
+        JScrollPane s=new JScrollPane();  
+        //s.setBounds(100,100, 50,100);  
         add(s);
     }
     
